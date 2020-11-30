@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e6acfd-2825-473a-a457-ffbe5c7f1cc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UberEats/source/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UberEats/source/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1606472730026" duration="126000" />
       <workItem from="1606472960821" duration="38811000" />
       <workItem from="1606687419261" duration="181000" />
-      <workItem from="1606687612208" duration="3669000" />
+      <workItem from="1606687612208" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="completed the first page and add second page">
       <created>1606293758538</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606739827136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix color for scss">
+      <created>1606739900742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606739900742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +136,8 @@
     <MESSAGE value="complete layout" />
     <MESSAGE value="add link to Pushkin cafe" />
     <MESSAGE value="fix color" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix color" />
+    <MESSAGE value="fix color for scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix color for scss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1606739160122">
@@ -152,10 +160,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606415839122" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606739828469">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606739902463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606739828469" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606739902463" />
     <state x="0" y="199" key="run.anything.popup" timestamp="1606563165046">
       <screen x="0" y="0" width="1466" height="864" />
     </state>

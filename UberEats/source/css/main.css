@@ -2,6 +2,7 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
 .navbar {
   height: 72px;
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
@@ -25,7 +26,7 @@ body {
 }
 
 .link-to {
-  color: #1D1D1D;
+  color: #1D1D1D !important;
 }
 
 .form-control {
