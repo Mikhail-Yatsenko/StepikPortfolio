@@ -4,145 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>UberEats</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="source/css/secondary.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-<a class="scrollup" href="#" title="Up">
-    <img id="Up" src="logo/buttonUp.svg" alt="Up">
-</a>
 <header>
     <div class="shadow-sm bg-white rounded">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #FFFFFF;">
+            <div class="container header-container">
                 <a class="navbar-brand mr-auto" href="#">
                     <img src="logo/ubereats.svg" alt="">
                 </a>
                 <button id="signUp" type="button" class="btn btn-outline-secondary btn-sm mr-3">Войти</button>
-                <button type="button" class="btn btn-sm">
-                    <img id="basket" src="logo/basket.svg" alt="">
-                </button>
-            </nav>
-        </div>
+                <div class="d-none d-md-block">
+                    <button type="button" class="btn btn-sm">
+                        <img id="basket" src="logo/basket.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
 <div class="jumbotron ibg" style="background-image: url('img/Pushkin.svg'); background-size: cover;">
     <div class="container">
-        <div class="row">
-            <div class="col col-lg-5 col-md-7 col-sm-12 col-12" style="background-color: #FFFFFF; display: flex;">
-                <div class="card border-light">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Трактир «Пушкин»</h5>
-                        <p class="card-text">&#8381&#8381&#8381&middot;Европейская</p>
-                        <p class="card-text">30-40мин</p>
+        <div class="col col-xl-5 col-lg-5 col-md-7">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                        <p class="title_name">Трактир «Пушкин»</p>
                     </div>
+                    <div class="items">
+                        <div class="name_item_1">
+                            <p class="card-text_1">&#8381&#8381&#8381&middot;Европейская</p>
+                        </div>
+                        <div class="name_item_2">
+                            <p class="card-text_2">30-40 мин</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 <main>
-    <div class="main-list">
-        <div class="container">
-            <nav class="nav ml-0 pl-0">
-                <a class="nav-link active" href="#" style="color: #327430;">Active</a>
-                <a class="nav-link active" href="#">Link</a>
-                <a class="nav-link active" href="#">Link</a>
-                <a class="nav-link active" href="#">Disabled</a>
-                <a class="nav-link active" href="#">Link</a>
-                <a class="nav-link active" href="#">Disabled</a>
-            </nav>
+    <div class="border-bottom">
+        <div class="d-none d-md-block">
+            <div class="container">
+                <div class="nav">
+                    <a class="link-1" href="#">Закуски</a>
+                    <a class="link" href="#">Салаты</a>
+                    <a class="link" href="#">Супы</a>
+                    <a class="link" href="#">Горячие блюда</a>
+                    <a class="link" href="#">Гарниры</a>
+                    <a class="link" href="#">Десерты</a>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/McDonalds.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Макдоналдс-Газетный</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&#8381&middot;Бургеры</small></p>
-                            <p class="mb-3">25-35 мин</p>
-                        </div>
+    </div>
+    <div class="container">
+        <h3 class="text">Закуски</h3>
+        <p class="line_snacks"></p>
+        <div class="row">
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-1">
+                    <img src="img/eat/240p.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Сельдь на бородинском хлебе</p>
+                        <p class="text-item-span-1">С яйцом и огурцом</p>
+                        <p class="text-item-span-2">240 &#8381</p>
                     </div>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/DimSum.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Dim&#38;Co-ЦДМ</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&middot;Японская&middot;Китайская&middot;Азиатская</small></p>
-                            <p class="mb-3">40-50 мин</p>
-                        </div>
+            </div>
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-2">
+                    <img src="img/eat/320p_1.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Соленья асорти</p>
+                        <p class="text-item_2">320 &#8381</p>
                     </div>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/OK.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">ДвижОК-Манежная</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&middot;Американская&middot;Европейская</small></p>
-                            <p class="mb-3">35-45 мин</p>
-                        </div>
+            </div>
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-3">
+                    <img src="img/eat/300p.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Грибы маринованные</p>
+                        <p class="text-item_2">300 &#8381</p>
                     </div>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/NHA.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">НЯ-NHA</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&middot;Въетнамская</small></p>
-                            <p class="mb-3">30-40 мин</p>
-                        </div>
+            </div>
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-4">
+                    <img src="img/eat/320p_2.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Сало домашнее с гарчицей</p>
+                        <p class="text-item_2">320 &#8381</p>
                     </div>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/Colorful.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Точка Дзы-Цветной</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&middot;Въетнамская</small></p>
-                            <p class="mb-3">30-40 мин</p>
-                        </div>
+            </div>
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-5">
+                    <img src="img/eat/390p.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Малосольная семга</p>
+                        <p class="text-item_2">390 &#8381</p>
                     </div>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/Cinnabon.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Cinnabon</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&middot;Выпечка&middot;Десерты&middot;Капкейки</small></p>
-                            <p class="mb-3">25-35 мин</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/Pizzelove.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">PIZZELOVE</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&#8381&middot;Пицца</small></p>
-                            <p class="mb-3">15-25 мин</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/Z.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Zю кафе-Тверская</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&#8381&middot;Японская</small></p>
-                            <p class="mb-3">25-35 мин</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="card border-light" style="">
-                        <img src="img/BarBQCafe.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0">
-                            <p class="mt-2 mb-0">Bar BQ Cafe-Манежная</p>
-                            <p class="mb-0" style="color: #626262;"><small>&#8381&#8381&#8381&middot;Европейская</small></p>
-                            <p class="mb-3">30-40 мин</p>
-                        </div>
+            </div>
+            <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="card-6">
+                    <img src="img/eat/350p.png" class="card-image" alt="">
+                    <div class="card-items">
+                        <p class="text-item_1">Язык говяжий с хреном</p>
+                        <p class="text-item_2">350 &#8381</p>
                     </div>
                 </div>
             </div>
@@ -233,6 +208,23 @@
         </div>
     </div>
 </footer>
+<a class="button-up" href="#" title="Up">
+    <img id="Up" src="logo/buttonUp.svg" alt="Up">
+</a>
+<script>
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 100)) {
+        if ($('#upbutton').is(':hidden') {
+            $('#upbutton').css({opacity : 1}).fadeIn('slow');
+        }
+    } else {
+        $('#upbutton').stop(true, false).fadeOut('fast');
+    }
+    });
+    $('#upbutton').on('click', function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
