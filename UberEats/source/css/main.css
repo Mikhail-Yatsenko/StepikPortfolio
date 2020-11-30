@@ -12,11 +12,21 @@ body {
   padding-right: 15px !important;
   padding-left: 15px !important;
 }
+@media (max-width: 576px) {
+  .header-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
 
 @media (max-width: 768px) {
   #signUp {
     margin-right: 0 !important;
   }
+}
+
+.link-to {
+  color: #1D1D1D;
 }
 
 .form-control {
