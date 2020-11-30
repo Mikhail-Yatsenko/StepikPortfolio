@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e6acfd-2825-473a-a457-ffbe5c7f1cc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UberEats/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UberEats/source/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UberEats/source/css/secondary.css" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/css/secondary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UberEats/source/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UberEats/source/scss/secondary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/source/scss/secondary.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <workItem from="1606472730026" duration="126000" />
       <workItem from="1606472960821" duration="38811000" />
       <workItem from="1606687419261" duration="181000" />
-      <workItem from="1606687612208" duration="3259000" />
+      <workItem from="1606687612208" duration="3597000" />
     </task>
     <task id="LOCAL-00001" summary="completed the first page and add second page">
       <created>1606293758538</created>
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606737827595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add link to Pushkin cafe">
+      <created>1606739515542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606739515542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +121,8 @@
     <MESSAGE value="completed the first page and add second page" />
     <MESSAGE value="fix @media" />
     <MESSAGE value="complete layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete layout" />
+    <MESSAGE value="add link to Pushkin cafe" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link to Pushkin cafe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1606739160122">
@@ -141,10 +145,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606415839122" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606737829770">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606739517585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606737829770" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606739517585" />
     <state x="0" y="199" key="run.anything.popup" timestamp="1606563165046">
       <screen x="0" y="0" width="1466" height="864" />
     </state>
