@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55e6acfd-2825-473a-a457-ffbe5c7f1cc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UberEats/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/UberEats/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/web/2020/css_5(первый макет)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +68,9 @@
       <workItem from="1606472730026" duration="126000" />
       <workItem from="1606472960821" duration="38811000" />
       <workItem from="1606687419261" duration="181000" />
-      <workItem from="1606687612208" duration="4030000" />
+      <workItem from="1606687612208" duration="4691000" />
+      <workItem from="1606821492098" duration="617000" />
+      <workItem from="1606897941647" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="completed the first page and add second page">
       <created>1606293758538</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606740185846</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix color main.html">
+      <created>1606740277692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606740277692</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +154,8 @@
     <MESSAGE value="fix color" />
     <MESSAGE value="fix color for scss" />
     <MESSAGE value="fix color for scss again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix color for scss again" />
+    <MESSAGE value="fix color main.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix color main.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1606739160122">
@@ -165,14 +174,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="438" y="191" width="660" height="478" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1606415980929" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606415839122">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607021109338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606415839122" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606740187284">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607021109338" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606740282497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606740187284" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606740282497" />
     <state x="0" y="199" key="run.anything.popup" timestamp="1606563165046">
       <screen x="0" y="0" width="1466" height="864" />
     </state>
